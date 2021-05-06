@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.Card {
+  height: 20.5rem;
+  width: 15.5rem;
+  padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+  z-index: 1;
+}
+
+.Card > h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+  margin-bottom: 0.2rem;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+}
+
+.Card > p {
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  line-height: 1.4rem;
+}
+
+.Card > svg {
+  align-self: flex-start;
+  padding: 0 5px;
+}
+
+@media (max-width: 767px) {
+  .Card {
+    transform: scale(0.7);
+    margin: 10px;
+  }
+}
