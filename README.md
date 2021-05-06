@@ -1,6 +1,6 @@
 # Aloria UI
 
-<p><b>Note:</b> Under construction, not published</p>
+<p><b>Note: Under construction, not published.</b></p>
 
 <p>Aloria UI is a bootstrap-like react library to assist with developers. It contains reuasable react components and hooks, fonts, icons, and more.</p>
 
@@ -32,6 +32,10 @@ export default function App() {
   return <MyComponent />;
 }
 ```
+
+## Contribute
+
+<p>To contribute to the project, check out the templates directory</p>
 
 ## License
 
