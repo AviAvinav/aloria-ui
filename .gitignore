@@ -2,3 +2,4 @@ node_modules/
 .storybook
 
 /src/stories
+/src/components/Label
