@@ -14,11 +14,7 @@
 npm install aloria-ui
 ```
 
-<br/>
-
 or...
-
-<br/>
 
 ```bash
 yarn add aloria-ui
