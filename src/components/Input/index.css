@@ -1,0 +1,80 @@
+.TextInput,
+.PasswordInput,
+.CheckboxInput,
+.EmailInput,
+.FileInput {
+  margin: 1.5rem 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.TextInput,
+.PasswordInput,
+.EmailInput > svg {
+  margin-right: 1.5rem;
+}
+
+.text,
+.password,
+.email {
+  padding: 0.8rem 1.5rem;
+  letter-spacing: 0.8px;
+  outline: none;
+  border-radius: 8px;
+  border: 0.2px solid #33333330;
+}
+
+.checkbox[type="checkbox"] {
+  position: relative;
+  height: 20px;
+  width: 60px;
+  -webkit-appearance: none;
+  background: #666;
+  outline: none;
+  border-radius: 20px;
+  transition: 0.3s;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.checkbox:checked[type="checkbox"] {
+  background: #eeeeee;
+}
+
+.checkbox[type="checkbox"]:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  background: #29313d;
+  box-shadow: 0 2px 5px rgba(0, 0, 0);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.checkbox:checked[type="checkbox"]:before {
+  left: 40px;
+}
+
+.file[type="file"] {
+  display: none;
+}
+
+.file-label {
+  border: 0.2px solid #33333330;
+  display: inline-block;
+  width: 120px;
+  padding: 0.6rem 1.5rem;
+  outline: none;
+  color: #757575;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 0.8px;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
