@@ -22,6 +22,48 @@ yarn add aloria-ui
 
 ## Usage
 
+### Components
+
+<p>These are the available components:</p>
+
+<ul>
+
+<li>
+
+[`Button`](./src/components/Button)
+
+</li>
+
+<li>
+
+[`Card`](./src/components/Card)
+
+</li>
+
+<li>
+
+[`Container`](./src/components/Container)
+
+</li>
+
+</ul>
+
+### Hooks
+
+<p>These are the available hooks:</p>
+
+<ul>
+
+<li>
+
+[`useLoading`](./src/hooks/useLoading)
+
+</li>
+
+</ul>
+
+### Importing/Using
+
 ```jsx
 import React from "react";
 import { MyComponent } from "aloria-ui";
@@ -31,9 +73,15 @@ export default function App() {
 }
 ```
 
+<p>
+
+Change the `MyComponent` with whichever component or hook you wish.
+
+</p>
+
 ## Contribute
 
-<p>To contribute to the project, check out the templates directory</p>
+<p>To contribute to the project, check out the templates directory.</p>
 
 ## License
 
