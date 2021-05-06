@@ -1,0 +1,44 @@
+{
+  "name": "aloria-ui",
+  "version": "1.0.0",
+  "description": "A react component library with pre-created components, hooks, fonts and icons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/AviAvinav/aloria-ui)"
+  },
+  "keywords": [
+    "aloria-ui",
+    "aloria",
+    "aloria",
+    "ui",
+    "react",
+    "react-aloria-ui",
+    "react-aloria",
+    "react",
+    "aloria",
+    "ui",
+    "react",
+    "aloria",
+    "aloria-ui-react",
+    "aloria-react",
+    "aloria",
+    "ui",
+    "react",
+    "aloria",
+    "react"
+  ],
+  "author": "Avi Avinav <aviavinav2004@gmail.com> (https://github.com/AviAvinav)",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
