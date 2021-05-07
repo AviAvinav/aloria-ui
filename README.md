@@ -1,7 +1,5 @@
 # Aloria UI
 
-<p><b>Note: Under construction, not published.</b></p>
-
 ## Intro
 
 <p>Aloria UI is a bootstrap-like react library to assist with developers. It contains reuasable react components and hooks, fonts, icons, and more.</p>
