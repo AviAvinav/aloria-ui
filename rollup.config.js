@@ -18,7 +18,7 @@ export default [
       },
     ],
     plugins: [
-      postcss(
+      postcss({
         plugins: [],
         minimize: true,
       }),
