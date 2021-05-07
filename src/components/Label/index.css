@@ -1,0 +1,8 @@
+.Label {
+  margin: -1rem 1.5rem;
+  margin-top: 2rem;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
