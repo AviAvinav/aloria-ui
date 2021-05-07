@@ -40,7 +40,7 @@ Button.defaultProps = {
   btnColor: "#29313D",
   btnHoverColor: "#222322",
   btnShadow: "#111111",
-  borderRadius: "5px",
+  borderRadius: "none",
   width: "150px",
   children: "Hello",
   textColor: "#ffffff",
