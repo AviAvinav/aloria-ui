@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css";
+import { Label } from "../Label";
+import { Input } from "../Input";
 import { Container } from "../Container";
 
 export const Form = ({ children, height }) => {
@@ -9,6 +11,30 @@ export const Form = ({ children, height }) => {
         {children}
       </Container>
     </form>
+  );
+};
+
+export const FormInput = ({
+  name,
+  type,
+  icon,
+  width,
+  backgroundColor,
+  fileFontColor,
+  placeholder,
+}) => {
+  return (
+    <div className={`FormInput`}>
+      {<Label>{name}</Label> || <></>}
+      <Input
+        type={type}
+        placeholder={placeholder ? placeholder : name}
+        icon={icon}
+        width={width}
+        backgroundColor={backgroundColor}
+        fileFontColor={fileFontColor}
+      />
+    </div>
   );
 };
 
