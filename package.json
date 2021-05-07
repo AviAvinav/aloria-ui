@@ -4,6 +4,7 @@
   "description": "A react component library with pre-created components, hooks, fonts and icons.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "homepage": "https://github.com/AviAvinav/aloria-ui#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
