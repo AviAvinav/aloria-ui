@@ -44,6 +44,24 @@ yarn add aloria-ui
 
 </li>
 
+<li>
+
+[`Form`](./src/components/Form)
+
+</li>
+
+<li>
+
+[`Input`](./src/components/Input)
+
+</li>
+
+<li>
+
+[`Label`](./src/components/Label)
+
+</li>
+
 </ul>
 
 ### Hooks
