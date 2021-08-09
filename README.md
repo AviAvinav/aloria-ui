@@ -62,6 +62,12 @@ yarn add aloria-ui
 
 </li>
 
+<li>
+
+[`Grid`](./src/components/Grid)
+
+</li>
+
 </ul>
 
 ### Hooks
