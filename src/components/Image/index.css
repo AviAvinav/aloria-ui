@@ -1,0 +1,34 @@
+.Image {
+  width: 100%;
+  margin: 1px;
+}
+
+.aloria-blur {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.aloria-grayscale {
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
+}
+
+.aloria-cool-drop-shadow {
+  -webkit-filter: drop-shadow(16px 16px 20px red) invert(75%);
+  filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
+
+.aloria-drop-shadow {
+  -webkit-filter: drop-shadow(16px 16px 20px) invert(75%);
+  filter: drop-shadow(16px 16px 20px) invert(75%);
+}
+
+.aloria-hue {
+  -webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
+}
+
+.aloria-contrast {
+  -webkit-filter: contrast(200%);
+  filter: contrast(200%);
+}

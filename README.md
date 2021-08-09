@@ -70,6 +70,12 @@ yarn add aloria-ui
 
 </li>
 
+<li>
+
+[`Image`](./src/components/Image)
+
+</li>
+
 </ul>
 
 ### Hooks
