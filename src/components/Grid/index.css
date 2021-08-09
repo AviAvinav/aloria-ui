@@ -1,0 +1,21 @@
+.Grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 28vw 28vw 28vw;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 1000px) {
+  .Grid {
+    grid-template-columns: 45vw 45vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .Grid {
+    grid-template-columns: 90vw;
+  }
+}
