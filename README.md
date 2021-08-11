@@ -8,6 +8,54 @@
 
 [![NPM](https://img.shields.io/npm/v/aloria-ui.svg)](https://www.npmjs.com/package/aloria-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Features
+
+<ul>
+
+<li>
+
+Pre-built Components
+
+</li>
+
+<li>
+
+Pre-built Hooks
+
+</li>
+
+<li>
+
+Reusable Classnames
+
+</li>
+
+<li>
+
+Responsive Image Component
+
+</li>
+
+<li>
+
+Pre-built Video Player (under-construction)
+
+</li>
+
+<li>
+
+Responsive Components
+
+</li>
+
+<li>
+
+Highly Customisable
+
+</li>
+
+</ul>
+
 ## Install
 
 ```bash
@@ -91,6 +139,20 @@ yarn add aloria-ui
 </li>
 
 </ul>
+
+### ClassNames
+
+<p>
+
+The classnames let you use certain style properties of Aloria UI components, in case you don't want to import the whole component.
+
+</p>
+
+<p>
+
+Check out all classnames in [here](./src/classnames).
+
+</p>
 
 ### Importing/Using
 
