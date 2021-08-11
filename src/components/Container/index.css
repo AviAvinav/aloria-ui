@@ -1,6 +1,169 @@
-.Container {
-  margin: 1rem 0;
-  padding: 1rem 2rem;
+.aloria-Container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.aloria-Container .row {
+  flex-direction: row !important;
+}
+
+.aloria-Container .column {
+  flex-direction: column !important;
+}
+
+.aloria-Container .justify-center {
+  justify-content: center !important;
+}
+
+.aloria-Container .justify-start {
+  justify-content: start !important;
+}
+
+.aloria-Container .justify-end {
+  justify-content: end !important;
+}
+
+.aloria-Container .justify-left {
+  justify-content: left !important;
+}
+
+.aloria-Container .justify-right {
+  justify-content: right !important;
+}
+
+.aloria-Container .justify-flex-start {
+  justify-content: flex-start !important;
+}
+
+.aloria-Container .justify-flex-end {
+  justify-content: flex-end !important;
+}
+
+.aloria-Container .justify-normal {
+  justify-content: normal !important;
+}
+
+.aloria-Container .justify-space-between {
+  justify-content: space-between !important;
+}
+
+.aloria-Container .justify-space-around {
+  justify-content: space-around !important;
+}
+
+.aloria-Container .justify-space-evenly {
+  justify-content: space-evenly !important;
+}
+
+.aloria-Container .justify-stretch {
+  justify-content: stretch !important;
+}
+
+.aloria-Container .justify-safe {
+  justify-content: safe !important;
+}
+
+.aloria-Container .justify-unsafe {
+  justify-content: unsafe !important;
+}
+
+.aloria-Container .justify-inherit {
+  justify-content: inherit !important;
+}
+
+.aloria-Container .justify-initial {
+  justify-content: initial !important;
+}
+
+.aloria-Container .justify-revert {
+  justify-content: revert !important;
+}
+
+.aloria-Container .justify-unset {
+  justify-content: unset !important;
+}
+
+.aloria-Container .justify-baseline {
+  justify-content: baseline !important;
+}
+
+.aloria-Container .align-center {
+  align-items: center !important;
+}
+
+.aloria-Container .align-start {
+  align-items: start !important;
+}
+
+.aloria-Container .align-end {
+  align-items: end !important;
+}
+
+.aloria-Container .align-left {
+  align-items: left !important;
+}
+
+.aloria-Container .align-right {
+  align-items: right !important;
+}
+
+.aloria-Container .align-flex-start {
+  align-items: flex-start !important;
+}
+
+.aloria-Container .align-flex-end {
+  align-items: flex-end !important;
+}
+
+.aloria-Container .align-normal {
+  align-items: normal !important;
+}
+
+.aloria-Container .align-stretch {
+  align-items: stretch !important;
+}
+
+.aloria-Container .align-safe {
+  align-items: safe !important;
+}
+
+.aloria-Container .align-unsafe {
+  align-items: unsafe !important;
+}
+
+.aloria-Container .align-inherit {
+  align-items: inherit !important;
+}
+
+.aloria-Container .align-initial {
+  align-items: initial !important;
+}
+
+.aloria-Container .align-revert {
+  align-items: revert !important;
+}
+
+.aloria-Container .align-unset {
+  align-items: unset !important;
+}
+
+.aloria-Container .align-baseline {
+  align-items: baseline !important;
+}
+
+@media (max-width: 1000px) {
+  .aloria-Container {
+    flex-direction: column;
+  }
+
+  .aloria-Container .small-screen-row {
+    flex-direction: row;
+  }
+
+  .aloria-Container .small-screen-column {
+    flex-direction: column;
+  }
 }

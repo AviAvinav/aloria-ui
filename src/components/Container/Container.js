@@ -1,20 +1,27 @@
-import React from "react";
 import "./index.css";
 
-let directionDefault = window.innerWidth >= 767 ? "row" : "column";
+let defaultDir;
 
-export const Container = ({ flexDirection, alignItems, children }) => {
+if (window.innerWidth >= 767) {
+  defaultDir = "row";
+} else {
+  defaultDir = "column";
+}
+
+export const Container = ({
+  flexDirection,
+  alignItems,
+  className,
+  justifyContent,
+  children,
+}) => {
   return (
     <div
-      className={`Container`}
-      style={{ flexDirection: flexDirection, alignItems: alignItems }}
+      className={`aloria-Container ${flexDirection ? flexDirection : ""} ${
+        alignItems ? alignItems : ""
+      } ${justifyContent ? justifyContent : ""} ${className ? className : ""}`}
     >
       {children}
     </div>
   );
-};
-
-Container.defaultProps = {
-  flexDirection: directionDefault,
-  alignItems: "center",
 };

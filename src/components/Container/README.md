@@ -1,10 +1,8 @@
 # Container
 
 <p>
-Container is a basic container component.
-<br/>
 
-It has a top and bottom `margin` of 1rem, and a `padding` of 1rem vertically and 2rem horizontally.
+Container is a basic flex container component.
 
 </p>
 
@@ -29,7 +27,25 @@ The Container component takes the following props:
 
 <li>
 
-`flexDirection`: It specifies the flex direction of the container. Default value: for screen-widths >= 767px, `row`; otherwise, `column`.
+`flexDirection`: It specifies the flex direction of the container. Default value: for screen-widths >= 1000px, `row`; otherwise, `column`.
+
+</li>
+
+<li>
+
+`alignItems`: It specifies the alignment of items (vertically) of the container. Default value: `center`.
+
+</li>
+
+<li>
+
+`justifyContent`: It specifies the alignment of items (horizontally) of the container. Default value: `space-between`.
+
+</li>
+
+<li>
+
+`className`: It specifies the className you want to add to the component to style it yourself.
 
 </li>
 
