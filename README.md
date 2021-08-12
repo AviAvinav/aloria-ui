@@ -124,6 +124,12 @@ yarn add aloria-ui
 
 </li>
 
+<li>
+
+[`ScrollableDiv`](./src/components/ScrollableDiv)
+
+</li>
+
 </ul>
 
 ### Hooks
