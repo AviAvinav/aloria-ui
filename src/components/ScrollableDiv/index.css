@@ -1,0 +1,18 @@
+.aloria-ScrollableDiv {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.aloria-ScrollableDiv::-webkit-scrollbar {
+  height: 0;
+}
+
+.aloria-ScrollableDiv::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.aloria-ScrollableDiv::-webkit-scrollbar-thumb {
+  background: transparent;
+}

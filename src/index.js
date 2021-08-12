@@ -7,3 +7,4 @@ export { Label } from "./components/Label";
 export { Form, FormInput } from "./components/Form";
 export { Grid } from "./components/Grid";
 export { Image } from "./components/Image";
+export { ScrollableDiv } from "./components/ScrollableDiv";
