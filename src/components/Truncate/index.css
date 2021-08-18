@@ -1,0 +1,35 @@
+.aloria-Text {
+  position: relative;
+}
+
+.truncate {
+  max-height: 4.2em;
+  overflow-y: hidden;
+}
+
+.truncate:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30ch;
+  height: 1.4em;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1) 50%
+  );
+}
+
+.aloria-Text > p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.4em;
+}

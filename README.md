@@ -130,6 +130,12 @@ yarn add aloria-ui
 
 </li>
 
+<li>
+
+[`Truncate`](./src/components/Truncate)
+
+</li>
+
 </ul>
 
 ### Hooks
