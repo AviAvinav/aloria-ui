@@ -154,6 +154,10 @@
   align-items: baseline !important;
 }
 
+.aloria-Container-padding {
+  padding: 20px;
+}
+
 @media (max-width: 1000px) {
   .aloria-Container {
     flex-direction: column;

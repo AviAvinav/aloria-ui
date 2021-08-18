@@ -19,7 +19,9 @@ export const Container = ({
     <div
       className={`aloria-Container ${flexDirection ? flexDirection : ""} ${
         alignItems ? alignItems : ""
-      } ${justifyContent ? justifyContent : ""} ${className ? className : ""}`}
+      } ${justifyContent ? justifyContent : ""} ${className ? className : ""} ${
+        "aloria-Container-padding" ? padding : ""
+      }`}
     >
       {children}
     </div>
